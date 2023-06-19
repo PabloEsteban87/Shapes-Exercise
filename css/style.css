@@ -1,0 +1,36 @@
+.container-grid{
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    align-content: center;
+}
+
+#polygon{
+    margin-right: 7vw;
+}
+
+#polygon:hover{
+ filter: hue-rotate(120deg);
+ transform: translateY(-50px);
+}
+
+#rectangle{
+    margin-right: 7vw;
+}
+
+#rectangle:hover{
+    filter: hue-rotate(150deg);
+    transform: translateY(-50px);
+}
+
+#ellipse:hover{
+    filter: hue-rotate(60deg) brightness(500%);
+    transform: translateY(-50px);
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+
+}
